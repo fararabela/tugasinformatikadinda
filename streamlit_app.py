@@ -4,3 +4,14 @@ st.title("selamat datang di web informatika dinda cantik")
 st.write("halo aku adinda ini adalah tugas informatika saya"
     )
 )
+st.image("628e9904bcbaea08f62d9e30b32f4032.jpg", width=200)
+
+st.title("Aplikasi sederhana")
+st.header("Aplikasi Mengecek Nilai Genap/Ganjil")
+
+
+if (angka % 2)== 0:
+    st.write(f"{angka} Adalah Bilangan Genap")
+else:
+    st.write(f"{angka} adalah Bilangan Ganjil")
+    
